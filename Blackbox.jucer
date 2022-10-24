@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="bmERS7" name="Blackbox" projectType="guiapp" version="1.0.0"
+              includeBinaryInAppConfig="1" companyName="u6959187" companyEmail="u6959187@anu.edu.au"
+              displaySplashScreen="1" defines="JUCE_MODAL_LOOPS_PERMITTED=1"
+              jucerFormatVersion="1">
+  <MAINGROUP id="z7sSgT" name="Blackbox">
+    <GROUP id="{B75A2A8B-CAE3-714B-5151-23A779C661CF}" name="Source">
+      <FILE id="IyFCVt" name="logo.png" compile="0" resource="1" file="Source/logo.png"/>
+      <GROUP id="{7A466141-73F5-2CE7-F187-E2602F37A73E}" name="Frontend">
+        <FILE id="ManMHP" name="BassPage.cpp" compile="1" resource="0" file="Source/BassPage.cpp"/>
+        <FILE id="FFH15C" name="BassPage.h" compile="0" resource="0" file="Source/BassPage.h"/>
+        <FILE id="viwtuM" name="DrumPage.cpp" compile="1" resource="0" file="Source/DrumPage.cpp"/>
+        <FILE id="dt2Bcf" name="DrumPage.h" compile="0" resource="0" file="Source/DrumPage.h"/>
+        <FILE id="uUmOI7" name="HarmonyPage.cpp" compile="1" resource="0" file="Source/HarmonyPage.cpp"/>
+        <FILE id="Pg7Yp8" name="HarmonyPage.h" compile="0" resource="0" file="Source/HarmonyPage.h"/>
+        <FILE id="VXpebj" name="MainPage.cpp" compile="1" resource="0" file="Source/MainPage.cpp"/>
+        <FILE id="Iv3MxN" name="MainPage.h" compile="0" resource="0" file="Source/MainPage.h"/>
+        <FILE id="ICOpJc" name="MelodyPage.cpp" compile="1" resource="0" file="Source/MelodyPage.cpp"/>
+        <FILE id="jpcjiY" name="MelodyPage.h" compile="0" resource="0" file="Source/MelodyPage.h"/>
+      </GROUP>
+      <FILE id="ZkuYXR" name="Theory.h" compile="0" resource="0" file="Source/Theory.h"/>
+      <FILE id="oxWchw" name="ValueTree.cpp" compile="1" resource="0" file="Source/ValueTree.cpp"/>
+      <FILE id="EdcTJl" name="ValueTree.h" compile="0" resource="0" file="Source/ValueTree.h"/>
+      <FILE id="RJJHp8" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="pSUZg1" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="cT4IlU" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="auC4uz" name="MidiGenerator.h" compile="0" resource="0" file="Source/MidiGenerator.h"/>
+      <FILE id="K2N14C" name="MidiGenerator.cpp" compile="1" resource="0"
+            file="Source/MidiGenerator.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX" smallIcon="IyFCVt" bigIcon="IyFCVt">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" osxCompatibility="10.11 SDK" isDebug="1" optimisation="1"
+                       targetName="Computing Project" macOSDeploymentTarget="10.11"/>
+        <CONFIGURATION name="Release" osxCompatibility="10.11 SDK" isDebug="0" optimisation="2"
+                       targetName="Blackbox" linkTimeOptimisation="1" macOSDeploymentTarget="10.11"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../Development/libs/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../Development/libs/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../Development/libs/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../Development/libs/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../Development/libs/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../Development/libs/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../Development/libs/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../../../Development/libs/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../Development/libs/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../Development/libs/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../Development/libs/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../Development/libs/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../Development/libs/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULES id="juce_audio_basics" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_audio_devices" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_audio_formats" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_audio_processors" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_core" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_cryptography" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_data_structures" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_events" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_graphics" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_gui_basics" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_gui_extra" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_opengl" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_video" showAllCode="1" useLocalCopy="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_USE_DIRECTWRITE="0"/>
+  <LIVE_SETTINGS>
+    <OSX/>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>

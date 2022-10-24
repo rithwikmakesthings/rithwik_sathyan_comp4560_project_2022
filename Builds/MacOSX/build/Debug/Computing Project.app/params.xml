@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Parameters Parameters="0">
+  <tempo tempo="64.0"/>
+  <root_note root_note="40"/>
+  <scale_to_use scale_to_use="1"/>
+  <melody_num_of_octaves melody_num_of_octaves="2"/>
+  <melody_main_velocity melody_main_velocity="49.0"/>
+  <melody_velocity_offset melody_velocity_offset="17.0"/>
+  <melody_note_length melody_note_length="14.0"/>
+  <melody_note_frequency melody_note_frequency="1.0"/>
+  <melody_note_rest_freq melody_note_rest_freq="1.0"/>
+  <pads_chord_prog_to_use pads_chord_prog_to_use="9.0"/>
+  <pads_note_length pads_note_length="63.0"/>
+  <pads_density pads_density="1.0"/>
+  <pads_main_velocity pads_main_velocity="73.0"/>
+  <pads_chord_interval pads_chord_interval="1.0"/>
+  <bass_main_velocity bass_main_velocity="122.0"/>
+  <bass_note_division bass_note_division="3.0"/>
+  <drums_kick_pattern_to_use drums_kick_pattern_to_use="6.0"/>
+  <drums_snare_pattern_to_use drums_snare_pattern_to_use="4.0"/>
+  <drums_perc1_pattern_to_use drums_perc1_pattern_to_use="2.0"/>
+  <drums_perc2_pattern_to_use drums_perc2_pattern_to_use="7.0"/>
+  <drums_offbeat_value drums_offbeat_value="3.0"/>
+  <drums_main_velocity drums_main_velocity="106.0"/>
+  <drums_velocity_offset drums_velocity_offset="1.0"/>
+</Parameters>
